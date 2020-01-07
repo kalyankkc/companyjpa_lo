@@ -26,8 +26,7 @@ public class CompanyServiceImpl implements CompanyService {
 
 	public DepartmentDto addDepartmentWithUsers(DepartmentDto departmentdto) {
 
-		List<EmployeeDto> employeedtolist ;
-		//= new ArrayList<EmployeeDto>();
+		List<EmployeeDto> employeedtolist = new ArrayList<EmployeeDto>();
 
 		employeedtolist = departmentdto.getEmployeesdto();
 
